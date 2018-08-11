@@ -1,0 +1,15 @@
+#paragraphe{
+    height: 50px;
+    width: 300px;
+    background-color: forestgreen;
+    border: 1px solid;
+    padding: 2px 5px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+#paragraphe:hover{
+    overflow: initial;
+}
